@@ -62,7 +62,9 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 asPatas. Todos os direitos reservados.</p>
+        <p>
+            &copy; 2024 asPatas. Todos os direitos reservados. <a href="https://www.facebook.com/associacao.aspatas/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </p>
     </footer>
 </body>
 </html>

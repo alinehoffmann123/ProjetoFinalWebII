@@ -68,7 +68,7 @@ class CadastroController extends Controller {
             , 'contato-mensagem' => $oRequest->message
         ];
 
-        Mail::to('aline.hoffmann@unidavi.edu.br')->send(new ContatoMail($aDados));
+        Mail::to('alinefernandahoffmann@gmail.com')->send(new ContatoMail($aDados));
 
         return redirect()->back()->with('success', 'Mensagem enviada com sucesso!');
     }

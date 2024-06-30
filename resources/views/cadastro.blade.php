@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>asPatas - Cadastro de Animais</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="{{asset('css/cadastro.css')}}">
 </head>
 <body>
@@ -35,9 +36,10 @@
       <button type="submit">Cadastrar Dados</button>
     </form>
   </main>
-
   <footer>
-    <p>&copy; 2024 asPatas. Todos os direitos reservados.</p>
-  </footer>
+        <p>
+            &copy; 2024 asPatas. Todos os direitos reservados. <a href="https://www.facebook.com/associacao.aspatas/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </p>
+    </footer>
 </body>
 </html>

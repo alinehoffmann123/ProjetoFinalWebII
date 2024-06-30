@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animais para Adoção - asPatas</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/adocao.css') }}">
 </head>
 <body>
@@ -57,7 +58,9 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 asPatas. Todos os direitos reservados.</p>
+        <p>
+            &copy; 2024 asPatas. Todos os direitos reservados. <a href="https://www.facebook.com/associacao.aspatas/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

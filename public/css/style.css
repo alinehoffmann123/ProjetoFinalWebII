@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #fef6e4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: url('hero-bg.jpg') no-repeat center center/cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #ff914d;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 6px 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav .logo img {
+  height: 70px;
+  border-radius: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hero {
+  margin-top: 100px;
+  position: relative;
+  width: 100%;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.hero .cta {
+  padding: 10px 20px;
+  background: #ff6f3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.hero .dog-img {
+  position: absolute;
+  right: 0px;
+  height: 150px;
+  margin-top: 106px;
+}
+
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about, .adopt, .gallery, .contact {
+  background: #fff;
+  margin: 20px 0;
+  padding: 20px 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2, .adopt h2, .gallery h2, .contact h2 {
+  color: #ff6f3c;
+}
+
+.adopt-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.animal {
+  background: #fff0e1;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.animal img {
+  width: 25%;
+  border-radius: 10px;
+}
+
+.animal h3 {
+  margin: 10px 0;
+  color: #ff6f3c;
+}
+
+.animal .btn {
+  padding: 10px 20px;
+  background: #ff6f3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-container img {
+  margin: 10px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input, form textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background: #ff6f3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #ff914d;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+} 
+
+.about .btn {
+  padding: 3px 9px;
+  background: #ff6f3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
